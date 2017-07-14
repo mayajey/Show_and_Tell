@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]
