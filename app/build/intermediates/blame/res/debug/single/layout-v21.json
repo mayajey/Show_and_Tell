@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
@@ -20,12 +28,20 @@
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/layout-v21/notification_action.xml"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",

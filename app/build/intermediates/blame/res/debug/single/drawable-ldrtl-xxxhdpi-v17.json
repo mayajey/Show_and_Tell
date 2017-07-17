@@ -16,8 +16,20 @@
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",

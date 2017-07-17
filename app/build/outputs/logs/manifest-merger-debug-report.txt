@@ -1,185 +1,189 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:3:5-34
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:6:5-30
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:2:11-69
 	android:configChanges
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:5:5-66
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:5:5-66
 uses-sdk
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/2758b5e4ea072b8773f6110a8456e88f283b5d62/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/mayajey/.android/build-cache/9b1d47c88e2cea78d71f9acf83877ec44107cde2/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/mayajey/.android/build-cache/c9d857407bad92339c85df541bbdfaf0c5e93fbd/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:17:5-43
-MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] /Users/mayajey/.android/build-cache/79705c250f95dd5bd82d5bf84e64484eb3a4b95b/output/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mayajey/.android/build-cache/d0615b0d5bfb032dce255ba42c3050cd9809b6ed/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android/build-cache/756250398ba3f5bc0cd28987df13593fd48e42cf/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:21:5-23:58
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/9dbb841b5b6d6c900dfbb8f1bc9a407cca5a9303/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/ec9a5f6cc2428faa2ee0d0f211f9ea242a8d571a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/tjeanjacques/.android/build-cache/c499dc8e4f913cdb02113bb4442b341865fd60df/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/tjeanjacques/.android/build-cache/0d33895b843c1297596e97f7945384d0c6966ecf/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/tjeanjacques/.android/build-cache/0241566cf8f447d570f47cb5e2bdffa019127746/output/AndroidManifest.xml:17:5-43
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] /Users/tjeanjacques/.android/build-cache/45f0f1fd396d971ace8ea689f3431026602e3987/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v13:25.3.1] /Users/tjeanjacques/.android/build-cache/bc96d33a06e2234878ac4b0a975c29e9762ac5dc/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v4:25.3.1] /Users/tjeanjacques/.android/build-cache/0e92952442193cd22429be6004dcc11b32bc8759/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/tjeanjacques/.android/build-cache/1ad06fa08d3ff229d640270d81b583a5126f5d87/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/b91044a9bbf51484c706f5fd88f502dd31633a81/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/tjeanjacques/.android/build-cache/8487a9fa781f20064a6efa76086e1aafa9976f5e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/22f2ce2258751181c47c7e9cc5886782e81bd04f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/tjeanjacques/.android/build-cache/4ec34140695835f7892ce25b412d3340153977e0/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/7c1ecf847bfbf51f2b50145ba022586cd35877ea/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:15:5-17:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:10:9-38
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:9:9-35
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml
 permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:12:5-109
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:12:5-109
 	android:protectionLevel
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:12:72-107
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:12:72-107
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:12:17-71
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:12:17-71
 permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:13:5-111
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:13:5-111
 	android:protectionLevel
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:13:74-109
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:13:74-109
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:13:17-73
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:13:17-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:15:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:19:5-78
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:19:5-78
+MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#com.example.mapdemo.permission.MAPS_RECEIVE
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:5-83
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:16:5-83
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:22-80
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:16:22-80
 uses-permission#android.permission.INTERNET
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:20:5-66
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:20:5-66
+MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:22-64
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:17:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:5-78
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:18:5-78
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:22-76
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:18:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:5-80
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:22-78
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:5-65
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:22-62
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:20:22-62
 uses-feature#0x00020000
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:23:5-25:35
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:21:5-77
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:23:5-25:35
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:24:9-41
 	android:required
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:25:9-32
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:25:9-32
 application
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:27:5-53:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/2758b5e4ea072b8773f6110a8456e88f283b5d62/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/mayajey/.android/build-cache/9b1d47c88e2cea78d71f9acf83877ec44107cde2/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/mayajey/.android/build-cache/c9d857407bad92339c85df541bbdfaf0c5e93fbd/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android/build-cache/756250398ba3f5bc0cd28987df13593fd48e42cf/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:29:5-20
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:28:5-54:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/9dbb841b5b6d6c900dfbb8f1bc9a407cca5a9303/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/ec9a5f6cc2428faa2ee0d0f211f9ea242a8d571a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/tjeanjacques/.android/build-cache/5776df15ed9c34ac1307125e58eca2db31d85e12/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/tjeanjacques/.android/build-cache/c499dc8e4f913cdb02113bb4442b341865fd60df/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/tjeanjacques/.android/build-cache/0d33895b843c1297596e97f7945384d0c6966ecf/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/tjeanjacques/.android/build-cache/0241566cf8f447d570f47cb5e2bdffa019127746/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v13:25.3.1] /Users/tjeanjacques/.android/build-cache/bc96d33a06e2234878ac4b0a975c29e9762ac5dc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/tjeanjacques/.android/build-cache/0e92952442193cd22429be6004dcc11b32bc8759/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/tjeanjacques/.android/build-cache/1ad06fa08d3ff229d640270d81b583a5126f5d87/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/b91044a9bbf51484c706f5fd88f502dd31633a81/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/tjeanjacques/.android/build-cache/8487a9fa781f20064a6efa76086e1aafa9976f5e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/tjeanjacques/.android/build-cache/4ec34140695835f7892ce25b412d3340153977e0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/7c1ecf847bfbf51f2b50145ba022586cd35877ea/output/AndroidManifest.xml:29:5-20
+MERGED from [com.parse:parse-android:1.15.8] /Users/tjeanjacques/.android/build-cache/6b57a41aef13ee8df34e468a6c1e81b4c10989f8/output/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:31:9-41
 	android:allowBackup
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:28:9-35
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:29:9-35
 	android:icon
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:29:9-45
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:30:9-45
 	android:theme
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:31:9-40
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:32:9-40
 activity#com.example.mapdemo.MapDemoActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:label
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:33:13-63
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:34:13-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.example.mapdemo.MarkerDetailsActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:41:9-68
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:42:9-68
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:41:19-56
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:42:19-56
 activity#com.example.mapdemo.PhotoTakeActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:9-64
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:43:9-64
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:19-52
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:43:19-52
 uses-library#com.google.android.maps
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:9-88
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:45:9-88
 	android:required
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:23-46
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:45:23-46
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:47-85
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:45:47-85
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:46:9-48:59
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:47:9-49:59
 	android:value
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:48:13-56
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:47:13-62
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:48:13-62
 meta-data#com.google.android.gms.version
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:50:9-52:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:20:9-121
+ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:51:9-53:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/tjeanjacques/.android/build-cache/0241566cf8f447d570f47cb5e2bdffa019127746/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:52:13-66
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:53:13-66
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:51:13-58
+		ADDED from /Users/tjeanjacques/Desktop/CodePath/SeenAds/app/src/main/AndroidManifest.xml:52:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/2758b5e4ea072b8773f6110a8456e88f283b5d62/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mayajey/.android/build-cache/d0615b0d5bfb032dce255ba42c3050cd9809b6ed/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android/build-cache/756250398ba3f5bc0cd28987df13593fd48e42cf/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/9dbb841b5b6d6c900dfbb8f1bc9a407cca5a9303/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/tjeanjacques/.android/build-cache/ec9a5f6cc2428faa2ee0d0f211f9ea242a8d571a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v13:25.3.1] /Users/tjeanjacques/.android/build-cache/bc96d33a06e2234878ac4b0a975c29e9762ac5dc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/tjeanjacques/.android/build-cache/0e92952442193cd22429be6004dcc11b32bc8759/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/tjeanjacques/.android/build-cache/1ad06fa08d3ff229d640270d81b583a5126f5d87/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/b91044a9bbf51484c706f5fd88f502dd31633a81/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/tjeanjacques/.android/build-cache/8487a9fa781f20064a6efa76086e1aafa9976f5e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/22f2ce2258751181c47c7e9cc5886782e81bd04f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/tjeanjacques/.android/build-cache/4ec34140695835f7892ce25b412d3340153977e0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/tjeanjacques/.android/build-cache/7c1ecf847bfbf51f2b50145ba022586cd35877ea/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/AndroidManifest.xml:26:9-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /Users/tjeanjacques/.android/build-cache/f70c364f394e37c5e746b5fa178ed968453e66b3/output/AndroidManifest.xml:19:19-85

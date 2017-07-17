@@ -83,18 +83,29 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="parse-android-1.15.8" level="project" />
+    <orderEntry type="library" exported="" name="play-services-basement-11.0.1" level="project" />
+    <orderEntry type="library" exported="" name="okio-1.13.0" level="project" />
     <orderEntry type="library" exported="" name="permissionsdispatcher-2.4.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-location-11.0.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-maps-11.0.1" level="project" />
+    <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
+    <orderEntry type="library" exported="" name="okhttp-3.8.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-v13-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-base-11.0.1" level="project" />
+    <orderEntry type="library" exported="" name="logging-interceptor-3.8.0" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-tasks-11.0.1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-vector-drawable-25.3.1" level="project" />
