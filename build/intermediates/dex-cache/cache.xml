@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.15.1/b2ae433dfa068bdc2f08d830a400e3a15825191a/parse-android-1.15.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b2ae433dfa068bdc2f08d830a400e3a15825191a">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/parse-android-1.15.1_0f2d9b0e95ae69c77f392c84d5104223172afb04.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/9b1d47c88e2cea78d71f9acf83877ec44107cde2/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,6 +18,42 @@
         revision="25.0.2"
         sha1="4b70c5ad05857b8b3b2458777e1b489a96d82f05">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_355b5ae4c290be4067f2520c8165da45a181bb04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_2eb1d74843c63774dea13c4abcaffe67b2e891db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.8.0/f765f004f3e201bd6ad0904266e605d7fb776d5/logging-interceptor-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.8.0_8e9843945d4baeab7a8b683a3d02503b5b04a772.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_24fba298e379aed32b58cdee16cea924a3428e74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.android/build-cache/79705c250f95dd5bd82d5bf84e64484eb3a4b95b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="178a142a25abea83b5bbb8c2660e6fb6c1ac7eb1">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_b27937abc4717a8e44d45a989ddb021acc838407.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,15 +75,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_01930c8d2b6f0fa115af2710e6f773bf43d0e21c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mayajey/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
@@ -75,30 +93,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okio-1.11.0_41e36ffbac5d71a3f89b80d8c3c107f0eb399175.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_3cea6e4618010250d6da180c91f0695509134067.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.6.0_9de2e2e21846535b5d3c159c84588305319a33aa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,21 +111,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_2eb1d74843c63774dea13c4abcaffe67b2e891db.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_5a1792f7acfd378ebbe266d186b7c91bfc0a7edc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okhttp-3.8.0_897925e2d1c4d50e1cb78f70c59e47c861e88cf8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,6 +147,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okio-1.13.0_5c80ff341152bc55f8c94dddb1b4b498f2d6c056.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -156,12 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/jars/classes.jar"
+        jar="/Users/mayajey/.android/build-cache/0b82406d35ed4c6cd3097f4a46a56b14a0f68cd1/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_24fba298e379aed32b58cdee16cea924a3428e74.jar" />
+        sha1="83c0b2c13a1736fcf8d25f8d5e05976c87142d44">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/classes_43ea0d6ee60ffdff896643c820f2996999a3048a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -198,15 +207,6 @@
         revision="25.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_b407f37d4d38fa4d68bd7bbb6d6009dbc91f0972.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mayajey/.android/build-cache/79705c250f95dd5bd82d5bf84e64484eb3a4b95b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="178a142a25abea83b5bbb8c2660e6fb6c1ac7eb1">
-        <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_b27937abc4717a8e44d45a989ddb021acc838407.jar" />
     </item>
 
 </items>
