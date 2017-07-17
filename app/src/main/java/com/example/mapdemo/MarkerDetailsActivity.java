@@ -16,6 +16,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.parse.ParseClassName;
+import com.parse.ParseException;
+import com.parse.ParseFile;
+import com.parse.ParseObject;
+import com.parse.SaveCallback;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -24,13 +30,21 @@ import java.io.IOException;
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
 
+@ParseClassName("MarkerDetailsActivity")
 @RuntimePermissions
 public class MarkerDetailsActivity extends AppCompatActivity {
 
     public final String APP_TAG = "SeenAds";
     public final static int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 1034;
+
+    // For local storage
     public final String ABSOLUTE_FILE_PATH = "/storage/emulated/0/Android/data/com.example.mapdemo/files/Pictures/SeenAds/";
     public String photoFileName = "photo.jpg";
+
+    // For parse
+    private ParseFile photoFile;
+    private ByteArrayOutputStream stream;
+    private String ID;
 
     TextView tvTitle;
     TextView tvSnippet;
@@ -45,13 +59,12 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.markerdetails_activity);
         // retrieve intent & setup
-        String ID = getIntent().getStringExtra("title");
+        ID = getIntent().getStringExtra("title");
         String snippet = getIntent().getStringExtra("snippet");
         photoFileName = photoFileName + ID;
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
-
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
         File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
         if(imgFile.exists()){
@@ -97,12 +110,26 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 Uri takenPhotoUri = getPhotoFileUri(photoFileName);
                 // by this point we have the camera photo on disk
                 Bitmap takenImage = BitmapFactory.decodeFile(ABSOLUTE_FILE_PATH + photoFileName);
-                // TODO RESIZE
                 Bitmap resizedImage = BitmapScaler.scaleToFitWidth(takenImage, 430);
                 // Configure byte output stream
-                ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+                stream = new ByteArrayOutputStream();
                 // Compress the image further
-                resizedImage.compress(Bitmap.CompressFormat.JPEG, 40, bytes);
+                resizedImage.compress(Bitmap.CompressFormat.JPEG, 40, stream);
+
+                // TODO Save to Parse : for Parse
+                byte[] image = stream.toByteArray();
+                final ParseFile parseImage = new ParseFile(image);
+                try {
+                    parseImage.save();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                ParseObject testObject = new ParseObject("ParseImageArrays");
+
+                // TODO change this to a more descriptive key based on each image
+                testObject.put("keys", parseImage);
+                testObject.saveInBackground();
+
                 // Create a new file for the resized bitmap (`getPhotoFileUri` defined above)
                 Uri resizedUri = getPhotoFileUri(photoFileName + "_resized");
                 File resizedFile = new File(resizedUri.getPath());
@@ -110,12 +137,12 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 try {
                     resizedFile.createNewFile();
                     fos = new FileOutputStream(resizedFile);
-                    fos.write(bytes.toByteArray());
+                    fos.write(stream.toByteArray());
                     fos.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                // Load the taken image into a preview
+                // Load the resized image into a preview
                 ivMarkerPhoto.setImageBitmap(resizedImage);
             } else { // Result was a failure
                 Toast.makeText(this, "Picture wasn't taken!", Toast.LENGTH_SHORT).show();
@@ -150,5 +177,21 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     private boolean isExternalStorageAvailable() {
         String state = Environment.getExternalStorageState();
         return state.equals(Environment.MEDIA_MOUNTED);
+    }
+
+    public void saveToParse(View view) {
+        if (stream != null) {
+            // Save the scaled image to Parse
+            photoFile = new ParseFile(photoFileName, stream.toByteArray());
+            photoFile.saveInBackground(new SaveCallback() {
+                public void done(ParseException e) {
+                    if (e != null) {
+                        Log.d("Failed to upload photo", e.toString());
+                    } else {
+                        // DONE!
+                    }
+                }
+            });
+        }
     }
 }
