@@ -15,7 +15,11 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
@@ -93,9 +97,26 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 Uri takenPhotoUri = getPhotoFileUri(photoFileName);
                 // by this point we have the camera photo on disk
                 Bitmap takenImage = BitmapFactory.decodeFile(ABSOLUTE_FILE_PATH + photoFileName);
-                // RESIZE BITMAP, see section below
+                // TODO RESIZE
+                Bitmap resizedImage = BitmapScaler.scaleToFitWidth(takenImage, 430);
+                // Configure byte output stream
+                ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+                // Compress the image further
+                resizedImage.compress(Bitmap.CompressFormat.JPEG, 40, bytes);
+                // Create a new file for the resized bitmap (`getPhotoFileUri` defined above)
+                Uri resizedUri = getPhotoFileUri(photoFileName + "_resized");
+                File resizedFile = new File(resizedUri.getPath());
+                FileOutputStream fos = null;
+                try {
+                    resizedFile.createNewFile();
+                    fos = new FileOutputStream(resizedFile);
+                    fos.write(bytes.toByteArray());
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 // Load the taken image into a preview
-                ivMarkerPhoto.setImageBitmap(takenImage);
+                ivMarkerPhoto.setImageBitmap(resizedImage);
             } else { // Result was a failure
                 Toast.makeText(this, "Picture wasn't taken!", Toast.LENGTH_SHORT).show();
             }
