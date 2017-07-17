@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.15.1/b2ae433dfa068bdc2f08d830a400e3a15825191a/parse-android-1.15.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2ae433dfa068bdc2f08d830a400e3a15825191a">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/parse-android-1.15.1_0f2d9b0e95ae69c77f392c84d5104223172afb04.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/9b1d47c88e2cea78d71f9acf83877ec44107cde2/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_01930c8d2b6f0fa115af2710e6f773bf43d0e21c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mayajey/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
@@ -48,12 +66,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_fd398b431eb8b70a00d37e505030de48600a1c85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/okio-1.11.0_41e36ffbac5d71a3f89b80d8c3c107f0eb399175.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_3cea6e4618010250d6da180c91f0695509134067.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.6.0_9de2e2e21846535b5d3c159c84588305319a33aa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -99,6 +144,15 @@
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/pre-dexed/debug/classes_366525385f488dd326439914e5352a1d8ab10798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayajey/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_50344c707d0fd1519b4343dd54a3f204537a0d0e.jar" />
     </item>
     <item
         is-multidex="false"

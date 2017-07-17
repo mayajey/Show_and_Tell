@@ -103,7 +103,7 @@ public class MapDemoActivity extends AppCompatActivity implements
             map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
                 @Override
                 public boolean onMarkerClick(Marker marker) {
-                    Toast.makeText(MapDemoActivity.this, "Clicked a marker!", Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(MapDemoActivity.this, "Clicked a marker!", Toast.LENGTH_SHORT).show();
                     Intent markerDetailsIntent = new Intent(getApplicationContext(), MarkerDetailsActivity.class);
                     markerDetailsIntent.putExtra("title", marker.getTitle());
                     markerDetailsIntent.putExtra("snippet", marker.getSnippet());
@@ -202,7 +202,7 @@ public class MapDemoActivity extends AppCompatActivity implements
 
     @Override
     public void onMapLongClick(final LatLng point) {
-        Toast.makeText(this, "Long Press", Toast.LENGTH_LONG).show();
+        // Toast.makeText(this, "Long Press", Toast.LENGTH_LONG).show();
         showAlertDialogForPoint(point);
         // Custom code here...
     }
@@ -326,9 +326,7 @@ public class MapDemoActivity extends AppCompatActivity implements
         if (location == null) {
             return;
         }
-
-        // Removed because annoying -- report to the UI that the location was updated
-
+        // Removed for now because annoying: report to the UI that the location was updated
         mCurrentLocation = location;
         String msg = "Updated Location: " +
                 Double.toString(location.getLatitude()) + "," +

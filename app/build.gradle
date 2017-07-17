@@ -24,5 +24,8 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:11.0.1'
     compile 'com.github.hotchemi:permissionsdispatcher:2.4.0'
     annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.4.0'
+    compile 'com.parse.bolts:bolts-android:1.4.0'
+    compile 'com.parse:parse-android:1.15.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
     compile 'com.android.support:recyclerview-v7:25.3.1'
 }

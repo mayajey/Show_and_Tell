@@ -5,6 +5,7 @@ import com.google.android.gms.maps.GoogleMap;
  * Created by mayajey on 7/14/17.
  */
 
+// I have no idea if we need this
 public class MapWithID {
 
     public GoogleMap map;

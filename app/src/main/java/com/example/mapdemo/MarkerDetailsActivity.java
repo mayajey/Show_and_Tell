@@ -15,6 +15,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     Button btnUploadPic;
 
     // TODO make this prettier
+    // TODO pass image back in imageview
+    // TODO make this... work!
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
