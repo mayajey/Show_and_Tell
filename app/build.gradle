@@ -25,4 +25,7 @@ dependencies {
     compile 'com.github.hotchemi:permissionsdispatcher:2.4.0'
     annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.4.0'
     compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.parse:parse-android:1.15.8'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.0' // for logging API calls to LogCat
+
 }
