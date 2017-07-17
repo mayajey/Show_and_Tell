@@ -104,6 +104,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                 @Override
                 public boolean onMarkerClick(Marker marker) {
                     // Toast.makeText(MapDemoActivity.this, "Clicked a marker!", Toast.LENGTH_SHORT).show();
+                    // TODO custom info window adapter with picture option?
                     Intent markerDetailsIntent = new Intent(getApplicationContext(), MarkerDetailsActivity.class);
                     markerDetailsIntent.putExtra("title", marker.getTitle());
                     markerDetailsIntent.putExtra("snippet", marker.getSnippet());

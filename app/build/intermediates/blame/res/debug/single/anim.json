@@ -1,39 +1,27 @@
 [
     {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
@@ -44,79 +32,11 @@
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/mayajey/AndroidStudioProjects/android-google-maps-demo-master/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/tjeanjacques/Desktop/CodePath/SeenAds/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/tjeanjacques/.android/build-cache/62b6bfee9abf385d0ca0ac8556244988988eb4d2/output/res/anim/abc_fade_out.xml"
     }
 ]
