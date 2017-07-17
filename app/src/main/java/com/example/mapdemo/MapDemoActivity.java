@@ -181,8 +181,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                         Marker marker = map.addMarker(new MarkerOptions()
                                 .position(point)
                                 .title(title)
-                                .snippet(snippet)
-                                .icon(defaultMarker));
+                                .snippet(snippet));
 
                         // Animate marker using drop effect
                         // --> Call the dropPinEffect method here
