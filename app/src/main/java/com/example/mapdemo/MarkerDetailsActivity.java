@@ -20,7 +20,6 @@ import com.parse.ParseClassName;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
-import com.parse.SaveCallback;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -40,11 +39,12 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     // For local storage
     public final String ABSOLUTE_FILE_PATH = "/storage/emulated/0/Android/data/com.example.mapdemo/files/Pictures/SeenAds/";
     public String photoFileName = "photo.jpg";
+    // private String finalFileName = "";
 
     // For parse
     private ParseFile photoFile;
     private ByteArrayOutputStream stream;
-    private String ID;
+    private String snip;
 
     TextView tvTitle;
     TextView tvSnippet;
@@ -59,8 +59,9 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.markerdetails_activity);
         // retrieve intent & setup
-        ID = getIntent().getStringExtra("title");
+        String ID = getIntent().getStringExtra("title");
         String snippet = getIntent().getStringExtra("snippet");
+        snip = snippet;
         photoFileName = photoFileName + ID;
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
@@ -116,7 +117,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 // Compress the image further
                 resizedImage.compress(Bitmap.CompressFormat.JPEG, 40, stream);
 
-                // TODO Save to Parse : for Parse
+                // Save image to Parse
                 byte[] image = stream.toByteArray();
                 final ParseFile parseImage = new ParseFile(image);
                 try {
@@ -125,10 +126,13 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 ParseObject testObject = new ParseObject("ParseImageArrays");
+                // testObject.put("keys", parseImage);
+                testObject.put("MarkerImage", parseImage);
 
-                // TODO change this to a more descriptive key based on each image
-                testObject.put("keys", parseImage);
+                // For retrieval of images; check if the Parse snippet matches the current marker's snippet to load the right image from Parse
+                testObject.put("Snippet", snip);
                 testObject.saveInBackground();
+                String parseId = testObject.getObjectId();
 
                 // Create a new file for the resized bitmap (`getPhotoFileUri` defined above)
                 Uri resizedUri = getPhotoFileUri(photoFileName + "_resized");
@@ -177,21 +181,5 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     private boolean isExternalStorageAvailable() {
         String state = Environment.getExternalStorageState();
         return state.equals(Environment.MEDIA_MOUNTED);
-    }
-
-    public void saveToParse(View view) {
-        if (stream != null) {
-            // Save the scaled image to Parse
-            photoFile = new ParseFile(photoFileName, stream.toByteArray());
-            photoFile.saveInBackground(new SaveCallback() {
-                public void done(ParseException e) {
-                    if (e != null) {
-                        Log.d("Failed to upload photo", e.toString());
-                    } else {
-                        // DONE!
-                    }
-                }
-            });
-        }
     }
 }
