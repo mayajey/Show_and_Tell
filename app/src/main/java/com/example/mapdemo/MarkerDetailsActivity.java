@@ -14,6 +14,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     TextView tvSnippet;
     Button btnUploadPic;
 
+    // TODO make this prettier
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

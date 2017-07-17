@@ -99,6 +99,7 @@ public class MapDemoActivity extends AppCompatActivity implements
             // Map is ready
             Toast.makeText(this, "Map Fragment was loaded properly!", Toast.LENGTH_SHORT).show();
             map.setOnMapLongClickListener(this);
+            // When the marker is clicked, show details about it
             map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
                 @Override
                 public boolean onMarkerClick(Marker marker) {
@@ -288,7 +289,7 @@ public class MapDemoActivity extends AppCompatActivity implements
         if (mCurrentLocation != null) {
             Toast.makeText(this, "GPS location was found!", Toast.LENGTH_SHORT).show();
             LatLng latLng = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-            // these two lines cause a LOT of problems with cameraUpdate being null.
+            // these two lines cause a LOT of problems with cameraUpdate being null. Removed b/c zoom is annoying.
             // CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, 17);
             // map.animateCamera(cameraUpdate);
         } else {
@@ -326,13 +327,13 @@ public class MapDemoActivity extends AppCompatActivity implements
             return;
         }
 
-        // Report to the UI that the location was updated
+        // Removed because annoying -- report to the UI that the location was updated
 
         mCurrentLocation = location;
         String msg = "Updated Location: " +
                 Double.toString(location.getLatitude()) + "," +
                 Double.toString(location.getLongitude());
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+        // Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
     public void onSaveInstanceState(Bundle savedInstanceState) {
