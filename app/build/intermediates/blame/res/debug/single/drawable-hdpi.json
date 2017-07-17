@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/cameraicon.png",
+        "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/drawable-hdpi/cameraicon.png"
+    },
+    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/drawable-hdpi/favorite.png",
         "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/drawable-hdpi/favorite.png"
     },
