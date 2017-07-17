@@ -68,10 +68,6 @@
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/layout/fileprovider.xml",
-        "source": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/res/layout/fileprovider.xml"
-    },
-    {
         "merged": "/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/res/layout/abc_list_menu_item_checkbox.xml"
     },

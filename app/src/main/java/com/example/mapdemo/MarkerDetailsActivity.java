@@ -1,6 +1,5 @@
 
 package com.example.mapdemo;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,7 +15,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.File;
 
 import permissions.dispatcher.NeedsPermission;
@@ -66,6 +64,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     public void onLaunchCamera(View view) {
         // create Intent to take a picture and return control to the calling application
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        // why can't it get the file name?
         intent.putExtra(MediaStore.EXTRA_OUTPUT, getPhotoFileUri(photoFileName)); // set the image file name
 
         // If you call startActivityForResult() using an intent that no app can handle, your app will crash.
@@ -88,11 +87,10 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 Uri takenPhotoUri = getPhotoFileUri(photoFileName);
                 // by this point we have the camera photo on disk
-                Bitmap takenImage = BitmapFactory.decodeFile(takenPhotoUri.getPath());
+                Bitmap takenImage = BitmapFactory.decodeFile("/storage/emulated/0/Android/data/com.example.mapdemo/files/Pictures/SeenAds/photo.jpg");
                 // RESIZE BITMAP, see section below
                 // Load the taken image into a preview
-                ImageView ivPreview = (ImageView) findViewById(R.id.ivMarkerPhoto);
-                ivPreview.setImageBitmap(takenImage);
+                ivMarkerPhoto.setImageBitmap(takenImage);
             } else { // Result was a failure
                 Toast.makeText(this, "Picture wasn't taken!", Toast.LENGTH_SHORT).show();
             }
@@ -120,7 +118,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             // wrap File object into a content provider
             // required for API >= 24
             // See https://guides.codepath.com/Sharing-Content-with-Intents#sharing-files-with-api-24-or-higher
-            return FileProvider.getUriForFile(MarkerDetailsActivity.this, "com.codepath.fileprovider", file);
+            return FileProvider.getUriForFile(MarkerDetailsActivity.this, "com.example.mapdemo.fileprovider", file);
         }
         return null;
     }
@@ -130,5 +128,4 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         String state = Environment.getExternalStorageState();
         return state.equals(Environment.MEDIA_MOUNTED);
     }
-
 }

@@ -33,6 +33,16 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.mapdemo.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
         <activity
             android:name="com.example.mapdemo.MapDemoActivity"
             android:label="@string/app_name" >
@@ -46,7 +56,6 @@
         <activity android:name=".PhotoTakeActivity"></activity>
 
         <uses-library android:required="true" android:name="com.google.android.maps" />
-
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
