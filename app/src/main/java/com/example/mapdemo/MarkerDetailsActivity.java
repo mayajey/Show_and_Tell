@@ -15,7 +15,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.File;
 
 import permissions.dispatcher.NeedsPermission;
@@ -35,8 +34,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     ImageView ivMarkerPhoto;
 
     // TODO make this prettier
-    // TODO load the right image when clicked on details if picture has already been taken
-    // TODO make this... work!
+    // TODO Parse persistence across devices
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +47,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
+
+        // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
         File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
         if(imgFile.exists()){
             Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
@@ -72,9 +72,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     public void onLaunchCamera(View view) {
         // create Intent to take a picture and return control to the calling application
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        // why can't it get the file name?
         intent.putExtra(MediaStore.EXTRA_OUTPUT, getPhotoFileUri(photoFileName)); // set the image file name
-        // If you call startActivityForResult() using an intent that no app can handle, your app will crash.
         // So as long as the result is not null, it's safe to use the intent.
         if (intent.resolveActivity(getPackageManager()) != null) {
             // Start the image capture intent to take photo
