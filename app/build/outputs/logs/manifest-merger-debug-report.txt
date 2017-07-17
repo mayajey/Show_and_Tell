@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml
@@ -59,43 +59,61 @@ ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidMani
 		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:13:74-109
 	android:name
 		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:13:17-73
+permission#android.permission.CAMERA
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:14:5-95
+	android:protectionLevel
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:14:58-93
+	android:name
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:14:17-57
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:15:5-79
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:5-78
 MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:19:5-78
 MERGED from [com.parse:parse-android:1.15.8] /Users/mayajey/.android/build-cache/0b82406d35ed4c6cd3097f4a46a56b14a0f68cd1/output/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:22-76
 uses-permission#com.example.mapdemo.permission.MAPS_RECEIVE
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:5-83
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:5-83
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:16:22-80
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:22-80
 uses-permission#android.permission.INTERNET
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:5-67
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:5-66
 MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:20:5-66
 MERGED from [com.parse:parse-android:1.15.8] /Users/mayajey/.android/build-cache/0b82406d35ed4c6cd3097f4a46a56b14a0f68cd1/output/AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:17:22-64
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:5-78
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:18:22-76
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:5-80
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:5-80
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:19:22-78
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:5-65
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:21:5-64
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:20:22-62
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:21:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:23:22-78
 uses-feature#0x00020000
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:22:5-24:35
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:25:5-27:35
 MERGED from [com.google.android.gms:play-services-maps:11.0.1] /Users/mayajey/.android/build-cache/caa2c45a2399ccc8ca51525ad09e1dbbc08ed713/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:26:9-41
 	android:required
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:24:9-32
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:27:9-32
+uses-feature#android.hardware.camera
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:28:5-60
+	android:name
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:28:19-57
 application
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:26:5-53:19
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:30:5-58:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/2758b5e4ea072b8773f6110a8456e88f283b5d62/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/da529cfe8aa914613997f91087955eda7ea21151/output/AndroidManifest.xml:26:5-20
@@ -113,58 +131,58 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android
 MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.parse:parse-android:1.15.8] /Users/mayajey/.android/build-cache/0b82406d35ed4c6cd3097f4a46a56b14a0f68cd1/output/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:34:9-41
 	android:allowBackup
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:28:9-35
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:32:9-35
 	android:icon
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:29:9-45
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:33:9-45
 	android:theme
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:31:9-40
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:35:9-40
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:27:9-43
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:31:9-43
 activity#com.example.mapdemo.MapDemoActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:36:9-44:20
 	android:label
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:38:13-45
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:33:13-63
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:37:13-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:27-74
 activity#com.example.mapdemo.MarkerDetailsActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:41:9-68
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:45:9-68
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:41:19-56
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:45:19-56
 activity#com.example.mapdemo.PhotoTakeActivity
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:9-64
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:46:9-64
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:42:19-52
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:46:19-52
 uses-library#com.google.android.maps
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:9-88
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:48:9-88
 	android:required
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:23-46
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:48:23-46
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:44:47-85
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:48:47-85
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:46:9-48:59
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:51:9-53:59
 	android:value
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:48:13-56
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:47:13-62
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:52:13-62
 meta-data#com.google.android.gms.version
-ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:50:9-52:69
+ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:55:9-57:69
 MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:52:13-66
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:57:13-66
 	android:name
-		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:51:13-58
+		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:56:13-58
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mayajey/.android/build-cache/a9ccf323998861a19daa2765df2ccd33986e0f4a/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mayajey/.android/build-cache/2758b5e4ea072b8773f6110a8456e88f283b5d62/output/AndroidManifest.xml:22:5-24:34

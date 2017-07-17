@@ -35,9 +35,10 @@ public class SeenAdsApplication extends Application {
                 .clientKey(null)
                 .server("http://seenads.herokuapp.com/parse").build());
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "TEST2");
-        testObject.saveInBackground();
+        // For testing purposes -- it works!
+        // ParseObject testObject = new ParseObject("TestObject");
+        // testObject.put("foo", "TEST2");
+        // testObject.saveInBackground();
     }
 }
 
