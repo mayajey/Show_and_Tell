@@ -88,7 +88,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                     int size = parseObjects.size();
                     // TODO figure out a way to handle duplicate images LATER
                     // if there's something at this location already, load the image (assuming size of list is one)
-                    if (size >= 0) {
+                    if (size > 0) {
                         ParseObject match = parseObjects.get(0);
                         // get the image file
                         ParseFile imgFile = match.getParseFile("MarkerImage");

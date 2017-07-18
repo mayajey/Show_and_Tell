@@ -37,7 +37,9 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.parse.FindCallback;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +62,7 @@ public class MapDemoActivity extends AppCompatActivity implements
     public List<Marker> markerList;
 
     // used for loading the correct markers; unwrap from HomeGroupActivity intent
-    public String groupID;
+    public String groupID = "";
 
     private final static String KEY_LOCATION = "location";
 
@@ -106,10 +108,9 @@ public class MapDemoActivity extends AppCompatActivity implements
 
     protected void loadMap(GoogleMap googleMap) {
 
-        // TODO load map markers using parse
         map = googleMap;
 
-        // TEST MARKER -- adding to test parse IMAGES loading TODO REMOVE AFTER TESTING
+        // TEST MARKER (assuming map is not null...) -- adding to test parse IMAGES loading TODO REMOVE AFTER TESTING
         Marker marker = map.addMarker(new MarkerOptions()
                 .position(new LatLng(14.671585241495062, 5.345539301633835))
                 .title("TEST MARKER")
@@ -124,13 +125,50 @@ public class MapDemoActivity extends AppCompatActivity implements
                 @Override
                 public boolean onMarkerClick(Marker marker) {
                     // Toast.makeText(MapDemoActivity.this, "Clicked a marker!", Toast.LENGTH_SHORT).show();
-                    // TODO custom info window adapter with picture option?
                     Intent markerDetailsIntent = new Intent(getApplicationContext(), MarkerDetailsActivity.class);
                     markerDetailsIntent.putExtra("title", marker.getTitle());
                     markerDetailsIntent.putExtra("snippet", marker.getSnippet());
                     markerDetailsIntent.putExtra("location", String.valueOf(marker.getPosition()));
                     startActivity(markerDetailsIntent);
                     return false;
+                }
+            });
+            // Load markers matching groupID (LATER) through Parse; currently just loading all of them
+            // loading photo file based on LOCATION from Parse
+            ParseQuery<ParseObject> query  = ParseQuery.getQuery("Markers");
+            query.whereEqualTo("groupID", groupID);
+            query.findInBackground(new FindCallback<ParseObject>() {
+                @Override
+                public void done(List<ParseObject> parseObjects, com.parse.ParseException e) {
+                    if (e==null){
+                        int size = parseObjects.size();
+                        if (size > 0) {
+                            for (int i = 0; i < size; i++) {
+                                // get the current object (ie marker)
+                                ParseObject current = parseObjects.get(i);
+                                // extract attributes: title, snippet, position
+                                String title = current.getString("Title");
+                                String snippet = current.getString("Snippet");
+                                String location = current.getString("Location");
+                                // strip extraneous pieces off string
+                                location = location.substring(10, location.length() - 1);
+                                String[] latlong =  location.split(",");
+                                double latitude = Double.parseDouble(latlong[0]);
+                                double longitude = Double.parseDouble(latlong[1]);
+                                LatLng position = new LatLng(latitude, longitude);
+                                // add attributes to marker
+                                Marker marker = map.addMarker(new MarkerOptions()
+                                        .position(position)
+                                        .title(title)
+                                        .snippet(snippet));
+                                String itemId = parseObjects.get(i).getObjectId();
+                                Toast.makeText(MapDemoActivity.this, "Loaded from PARSE: object " + itemId, Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                        // else don't load any image & wait for the user to upload one
+                    } else {
+                        Log.e("ERROR:", "" + e.getMessage());
+                    }
                 }
             });
            MapDemoActivityPermissionsDispatcher.getMyLocationWithCheck(this);
@@ -210,6 +248,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                         testObject.put("Title", marker.getTitle());
                         testObject.put("Snippet", marker.getSnippet());
                         testObject.put("Location", String.valueOf(marker.getPosition()));
+                        testObject.put("groupID", groupID);
                         testObject.saveInBackground();
 
                         // Animate marker using drop effect
