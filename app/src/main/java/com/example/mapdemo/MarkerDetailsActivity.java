@@ -16,15 +16,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.parse.FindCallback;
 import com.parse.ParseClassName;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
@@ -72,6 +75,25 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
         tvLocation = (TextView) findViewById(R.id.tvLocation);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
+
+        // loading photo file based on LOCATION from Parse
+        ParseQuery<ParseObject> query  = ParseQuery.getQuery("ParseImageArrays");
+        query.whereEqualTo("Location", location);
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> parseObjects, com.parse.ParseException e) {
+                if (e==null){
+                    int size = parseObjects.size();
+                    if (size > 0) {
+                        String firstItemId = parseObjects.get(0).getObjectId();
+                        Toast.makeText(MarkerDetailsActivity.this, firstItemId, Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Log.e("ERROR:", "" + e.getMessage());
+                }
+            }
+        });
+
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
         File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
         if(imgFile.exists()){
@@ -133,8 +155,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 ParseObject testObject = new ParseObject("ParseImageArrays");
+                // Put the image file into parse
                 testObject.put("MarkerImage", parseImage);
-
                 // For retrieval of images; check if the Parse location matches the current marker's location to load the right image from Parse
                 testObject.put("Snippet", snip);
                 testObject.put("Location", location);
