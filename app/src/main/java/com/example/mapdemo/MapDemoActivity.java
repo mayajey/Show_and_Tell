@@ -108,6 +108,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                     Intent markerDetailsIntent = new Intent(getApplicationContext(), MarkerDetailsActivity.class);
                     markerDetailsIntent.putExtra("title", marker.getTitle());
                     markerDetailsIntent.putExtra("snippet", marker.getSnippet());
+                    markerDetailsIntent.putExtra("location", String.valueOf(marker.getPosition()));
                     startActivity(markerDetailsIntent);
                     return false;
                 }
@@ -182,7 +183,6 @@ public class MapDemoActivity extends AppCompatActivity implements
                                 .position(point)
                                 .title(title)
                                 .snippet(snippet));
-
                         // Animate marker using drop effect
                         // --> Call the dropPinEffect method here
                         dropPinEffect(marker);

@@ -42,12 +42,16 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     // private String finalFileName = "";
 
     // For parse
-    private ParseFile photoFile;
+    // private ParseFile photoFile;
     private ByteArrayOutputStream stream;
     private String snip;
+    private String location;
 
     TextView tvTitle;
     TextView tvSnippet;
+
+    // location for testing ONLY
+    TextView tvLocation;
     ImageButton ibUploadPic;
     ImageView ivMarkerPhoto;
 
@@ -62,9 +66,11 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         String ID = getIntent().getStringExtra("title");
         String snippet = getIntent().getStringExtra("snippet");
         snip = snippet;
+        location = getIntent().getStringExtra("location");
         photoFileName = photoFileName + ID;
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
+        tvLocation = (TextView) findViewById(R.id.tvLocation);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
         File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
@@ -83,6 +89,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         // set information
         tvTitle.setText(ID);
         tvSnippet.setText(snippet);
+        tvLocation.setText(location);
     }
 
 
@@ -126,11 +133,11 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 ParseObject testObject = new ParseObject("ParseImageArrays");
-                // testObject.put("keys", parseImage);
                 testObject.put("MarkerImage", parseImage);
 
-                // For retrieval of images; check if the Parse snippet matches the current marker's snippet to load the right image from Parse
+                // For retrieval of images; check if the Parse location matches the current marker's location to load the right image from Parse
                 testObject.put("Snippet", snip);
+                testObject.put("Location", location);
                 testObject.saveInBackground();
                 String parseId = testObject.getObjectId();
 
