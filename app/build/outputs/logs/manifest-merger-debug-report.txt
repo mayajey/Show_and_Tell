@@ -34,6 +34,7 @@ MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/buil
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/AndroidManifest.xml:21:5-23:61
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/mayajey/.android/build-cache/ecaf5118422edf6611e4685e6dfa00778327809e/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mayajey/.android/build-cache/d0615b0d5bfb032dce255ba42c3050cd9809b6ed/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android/build-cache/756250398ba3f5bc0cd28987df13593fd48e42cf/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:21:5-23:58

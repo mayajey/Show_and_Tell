@@ -37,9 +37,13 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.parse.ParseObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
-
 
 import static com.google.android.gms.location.LocationServices.getFusedLocationProviderClient;
 
@@ -53,6 +57,10 @@ public class MapDemoActivity extends AppCompatActivity implements
     Location mCurrentLocation;
     private long UPDATE_INTERVAL = 60000;  /* 60 secs */
     private long FASTEST_INTERVAL = 5000; /* 5 secs */
+    public List<Marker> markerList;
+
+    // used for loading the correct markers; unwrap from HomeGroupActivity intent
+    public String groupID;
 
     private final static String KEY_LOCATION = "location";
 
@@ -67,6 +75,9 @@ public class MapDemoActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_demo_activity);
+
+        // initialize list of markers
+        markerList = new ArrayList<>();
 
         if (TextUtils.isEmpty(getResources().getString(R.string.google_maps_api_key))) {
             throw new IllegalStateException("You forgot to supply a Google Maps API key");
@@ -97,6 +108,7 @@ public class MapDemoActivity extends AppCompatActivity implements
 
         // TODO load map markers using parse
         map = googleMap;
+
         // TEST MARKER -- adding to test parse IMAGES loading TODO REMOVE AFTER TESTING
         Marker marker = map.addMarker(new MarkerOptions()
                 .position(new LatLng(14.671585241495062, 5.345539301633835))
@@ -191,6 +203,15 @@ public class MapDemoActivity extends AppCompatActivity implements
                                 .position(point)
                                 .title(title)
                                 .snippet(snippet));
+                        markerList.add(marker);
+
+                        // Saves marker to parse (note: saves marker ATTRIBUTES in strings (easier than saving object), not actual marker object!)
+                        ParseObject testObject = new ParseObject("Markers");
+                        testObject.put("Title", marker.getTitle());
+                        testObject.put("Snippet", marker.getSnippet());
+                        testObject.put("Location", String.valueOf(marker.getPosition()));
+                        testObject.saveInBackground();
+
                         // Animate marker using drop effect
                         // --> Call the dropPinEffect method here
                         dropPinEffect(marker);

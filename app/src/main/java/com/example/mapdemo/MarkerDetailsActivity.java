@@ -30,7 +30,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
-import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
 
@@ -63,7 +62,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     ImageView ivMarkerPhoto;
 
     // TODO make this prettier
-    // TODO Parse persistence across devices
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,10 +98,10 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                         Glide.with(getApplicationContext())
                                 .load(imgFileUrl)
                                 .into(ivMarkerPhoto);
-                                .bitmapTransform(new RoundedCornersTransformation(getApplicationContext(), 10, 10));
 
                         // load it into the image view
                         String firstItemId = parseObjects.get(0).getObjectId();
+                        parseFlag = true;
                         Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_LONG).show();
                     }
                     // else don't load any image & wait for the user to upload one
@@ -114,11 +112,14 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         });
 
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
-        File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
-        if(imgFile.exists()){
-            Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
-            // ImageView myImage = (ImageView) findViewById(R.id.ivMarkerPhoto);
-            ivMarkerPhoto.setImageBitmap(myBitmap);
+        if (!parseFlag) {
+            File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
+            if(imgFile.exists()){
+                Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
+                // ImageView myImage = (ImageView) findViewById(R.id.ivMarkerPhoto);
+                ivMarkerPhoto.setImageBitmap(myBitmap);
+                Toast.makeText(MarkerDetailsActivity.this, "Loading from LOCAL STORAGE", Toast.LENGTH_LONG).show();
+            }
         }
         ibUploadPic = (ImageButton) findViewById(R.id.ibUploadPic);
         ibUploadPic.setOnClickListener(new View.OnClickListener() {
@@ -180,7 +181,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 testObject.put("Snippet", snip);
                 testObject.put("Location", location);
                 testObject.saveInBackground();
-                String parseId = testObject.getObjectId();
 
                 // Create a new file for the resized bitmap (`getPhotoFileUri` defined above)
                 Uri resizedUri = getPhotoFileUri(photoFileName + "_resized");

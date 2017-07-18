@@ -96,6 +96,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="play-services-basement-11.0.1" level="project" />
     <orderEntry type="library" exported="" name="permissionsdispatcher-2.4.0" level="project" />
+    <orderEntry type="library" exported="" name="gpuimage-library-1.4.1" level="project" />
     <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-v13-25.3.1" level="project" />
