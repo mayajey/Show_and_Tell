@@ -83,9 +83,9 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 if (e==null){
                     int size = parseObjects.size();
                     // TODO figure out a way to handle duplicate images LATER
-                    // if there's something at this location already, load the image (assuming size of list is one)
+                    // if there's something at this location already, load the most recent image (assuming size of list is one, but handling other possibilities)
                     if (size > 0) {
-                        ParseObject match = parseObjects.get(0);
+                        ParseObject match = parseObjects.get(size - 1);
                         // get the image file
                         ParseFile imgFile = match.getParseFile("MarkerImage");
                         // get the URL
@@ -190,7 +190,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 // Load the resized image into a preview
-                ivMarkerPhoto.setImageBitmap(resizedImage);
+                ivMarkerPhoto.setImageBitmap(takenImage);
             } else { // Result was a failure
                 Toast.makeText(this, "Picture wasn't taken!", Toast.LENGTH_SHORT).show();
             }

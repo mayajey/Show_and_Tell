@@ -1,8 +1,11 @@
 package com.example.mapdemo;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Looper;
@@ -64,6 +67,11 @@ public class MapDemoActivity extends AppCompatActivity implements
     // used for loading the correct markers; unwrap from HomeGroupActivity intent
     public String groupID = "";
 
+    // Shake detection
+    private SensorManager mSensorManager;
+    private Sensor mAccelerometer;
+    private ShakeDetector mShakeDetector;
+
     private final static String KEY_LOCATION = "location";
 
     /*
@@ -91,6 +99,19 @@ public class MapDemoActivity extends AppCompatActivity implements
             mCurrentLocation = savedInstanceState.getParcelable(KEY_LOCATION);
         }
 
+        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mAccelerometer = mSensorManager
+                .getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        mShakeDetector = new ShakeDetector();
+
+        // If you shake your phone, you're prompted to choose the type of map
+        mShakeDetector.setOnShakeListener(new ShakeDetector.OnShakeListener() {
+                                              @Override
+                                              public void onShake(int count) {
+                                                  showMapTypeSelectorDialog();
+                                              }
+                                          });
+
         mapFragment = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map));
         if (mapFragment != null) {
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -110,12 +131,6 @@ public class MapDemoActivity extends AppCompatActivity implements
 
         map = googleMap;
 
-        // TEST MARKER (assuming map is not null...) -- adding to test parse IMAGES loading TODO REMOVE AFTER TESTING
-        Marker marker = map.addMarker(new MarkerOptions()
-                .position(new LatLng(14.671585241495062, 5.345539301633835))
-                .title("TEST MARKER")
-                .snippet("should load image through Parse"));
-
         if (map != null) {
             // Map is ready
             Toast.makeText(this, "Map Fragment was loaded properly!", Toast.LENGTH_SHORT).show();
@@ -133,7 +148,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                     return false;
                 }
             });
-            // Load markers matching groupID (LATER) through Parse; currently just loading all of them
+            // TODO Load markers matching groupID (LATER) through Parse; currently just loading all of them
             // loading photo file based on LOCATION from Parse
             ParseQuery<ParseObject> query  = ParseQuery.getQuery("Markers");
             query.whereEqualTo("groupID", groupID);
@@ -173,7 +188,6 @@ public class MapDemoActivity extends AppCompatActivity implements
             });
            MapDemoActivityPermissionsDispatcher.getMyLocationWithCheck(this);
            MapDemoActivityPermissionsDispatcher.startLocationUpdatesWithCheck(this);
-            showMapTypeSelectorDialog();
 
         } else {
             Toast.makeText(this, "Error - Map was null!!", Toast.LENGTH_SHORT).show();
@@ -353,6 +367,7 @@ public class MapDemoActivity extends AppCompatActivity implements
     @Override
     protected void onResume() {
         super.onResume();
+        mSensorManager.registerListener(mShakeDetector, mAccelerometer,	SensorManager.SENSOR_DELAY_UI);
 
         // Display the connection status
 
@@ -389,6 +404,13 @@ public class MapDemoActivity extends AppCompatActivity implements
                     }
                 },
                 Looper.myLooper());
+    }
+
+    @Override
+    public void onPause() {
+        // Add the following line to unregister the Sensor Manager onPause
+        mSensorManager.unregisterListener(mShakeDetector);
+        super.onPause();
     }
 
     public void onLocationChanged(Location location) {

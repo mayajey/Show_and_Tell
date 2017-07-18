@@ -48,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/mayajey/.android/build-cache/e608fb8ce5e20f921e181efaa81bf005b6897e29/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="634c7355dfb70d8646f1fa39a3409bd2441d6314">
+        <dex dex="/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/pre-dexed/debug/classes_be9c0df66606f4e38f04bac272be68284e00e361.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"

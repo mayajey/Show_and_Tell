@@ -27,14 +27,15 @@ MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/mayaje
 MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/mayajey/.android/build-cache/c9d857407bad92339c85df541bbdfaf0c5e93fbd/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:17:5-43
-MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/mayajey/.android/build-cache/7bdc70a6ddd1562c263807431b90188eedce4f47/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] /Users/mayajey/.android/build-cache/79705c250f95dd5bd82d5bf84e64484eb3a4b95b/output/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:21:5-23:55
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/mayajey/.android/build-cache/ecaf5118422edf6611e4685e6dfa00778327809e/output/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/mayajey/.android/build-cache/7bdc70a6ddd1562c263807431b90188eedce4f47/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.mukeshsolanki:photofilter:1.0.2] /Users/mayajey/.android/build-cache/e608fb8ce5e20f921e181efaa81bf005b6897e29/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mayajey/.android/build-cache/2093ad8df020f1e46127f1978a4f435710d8d926/output/AndroidManifest.xml:21:5-23:61
-MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/mayajey/.android/build-cache/ecaf5118422edf6611e4685e6dfa00778327809e/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mayajey/.android/build-cache/d0615b0d5bfb032dce255ba42c3050cd9809b6ed/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mayajey/.android/build-cache/756250398ba3f5bc0cd28987df13593fd48e42cf/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/build-cache/7e372381565171adc8c54881c6f99e144f8f9b6b/output/AndroidManifest.xml:21:5-23:58
@@ -125,6 +126,7 @@ MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.a
 MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/mayajey/.android/build-cache/c9d857407bad92339c85df541bbdfaf0c5e93fbd/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.github.mukeshsolanki:photofilter:1.0.2] /Users/mayajey/.android/build-cache/e608fb8ce5e20f921e181efaa81bf005b6897e29/output/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/mayajey/.android/build-cache/5ed2891258b992c6c49a5c48a9a958ef5df42251/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mayajey/.android/build-cache/33e6eb90370e920ebf24daf51ffb4e39c219e126/output/AndroidManifest.xml:29:5-20
@@ -134,6 +136,8 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/mayajey/.android/
 MERGED from [com.parse:parse-android:1.15.8] /Users/mayajey/.android/build-cache/0b82406d35ed4c6cd3097f4a46a56b14a0f68cd1/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:34:9-41
+	android:supportsRtl
+		ADDED from [com.github.mukeshsolanki:photofilter:1.0.2] /Users/mayajey/.android/build-cache/e608fb8ce5e20f921e181efaa81bf005b6897e29/output/AndroidManifest.xml:14:9-35
 	android:allowBackup
 		ADDED from /Users/mayajey/AndroidStudioProjects/SeenAds/app/src/main/AndroidManifest.xml:32:9-35
 	android:icon

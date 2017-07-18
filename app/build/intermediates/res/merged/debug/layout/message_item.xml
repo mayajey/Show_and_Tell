@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/etSnippet"
-        android:background="@android:color/transparent"
         android:hint="Where are you?"
         android:paddingTop="20dp"></EditText>
 
@@ -18,7 +17,6 @@
         android:id="@+id/etSnippet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:layout_below="@id/etTitle"
         android:hint="Describe where you are!"></EditText>
 </RelativeLayout>
