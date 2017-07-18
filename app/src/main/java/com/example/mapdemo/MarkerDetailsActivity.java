@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.parse.FindCallback;
 import com.parse.ParseClassName;
 import com.parse.ParseException;
@@ -53,7 +54,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     TextView tvTitle;
     TextView tvSnippet;
 
-    // location for testing ONLY
+    // location TextView for testing ONLY
     TextView tvLocation;
     ImageButton ibUploadPic;
     ImageView ivMarkerPhoto;
@@ -84,10 +85,23 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             public void done(List<ParseObject> parseObjects, com.parse.ParseException e) {
                 if (e==null){
                     int size = parseObjects.size();
-                    if (size > 0) {
+                    // TODO figure out a way to handle duplicate images LATER
+                    // if there's something at this location already, load the image (assuming size of list is one)
+                    if (size >= 0) {
+                        ParseObject match = parseObjects.get(0);
+                        // get the image file
+                        ParseFile imgFile = match.getParseFile("MarkerImage");
+                        // get the URL
+                        String imgFileUrl = imgFile.getUrl();
+                        // load using Glide
+                        Glide.with(getApplicationContext())
+                                .load(imgFileUrl)
+                                .into(ivMarkerPhoto);
+                        // load it into the image view
                         String firstItemId = parseObjects.get(0).getObjectId();
-                        Toast.makeText(MarkerDetailsActivity.this, firstItemId, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_LONG).show();
                     }
+                    // else don't load any image & wait for the user to upload one
                 } else {
                     Log.e("ERROR:", "" + e.getMessage());
                 }
@@ -98,8 +112,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
         if(imgFile.exists()){
             Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
-            ImageView myImage = (ImageView) findViewById(R.id.ivMarkerPhoto);
-            myImage.setImageBitmap(myBitmap);
+            // ImageView myImage = (ImageView) findViewById(R.id.ivMarkerPhoto);
+            ivMarkerPhoto.setImageBitmap(myBitmap);
         }
         ibUploadPic = (ImageButton) findViewById(R.id.ibUploadPic);
         ibUploadPic.setOnClickListener(new View.OnClickListener() {

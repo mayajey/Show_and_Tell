@@ -94,7 +94,15 @@ public class MapDemoActivity extends AppCompatActivity implements
     }
 
     protected void loadMap(GoogleMap googleMap) {
+
+        // TODO load map markers using parse
         map = googleMap;
+        // TEST MARKER -- adding to test parse IMAGES loading TODO REMOVE AFTER TESTING
+        Marker marker = map.addMarker(new MarkerOptions()
+                .position(new LatLng(14.671585241495062, 5.345539301633835))
+                .title("TEST MARKER")
+                .snippet("should load image through Parse"));
+
         if (map != null) {
             // Map is ready
             Toast.makeText(this, "Map Fragment was loaded properly!", Toast.LENGTH_SHORT).show();
