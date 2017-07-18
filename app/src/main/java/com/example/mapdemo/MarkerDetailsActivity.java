@@ -30,6 +30,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
 
@@ -39,6 +40,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
 
     public final String APP_TAG = "SeenAds";
     public final static int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 1034;
+
+    public boolean parseFlag = false;
 
     // For local storage
     public final String ABSOLUTE_FILE_PATH = "/storage/emulated/0/Android/data/com.example.mapdemo/files/Pictures/SeenAds/";
@@ -97,6 +100,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                         Glide.with(getApplicationContext())
                                 .load(imgFileUrl)
                                 .into(ivMarkerPhoto);
+                                .bitmapTransform(new RoundedCornersTransformation(getApplicationContext(), 10, 10));
+
                         // load it into the image view
                         String firstItemId = parseObjects.get(0).getObjectId();
                         Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_LONG).show();

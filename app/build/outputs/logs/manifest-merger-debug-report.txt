@@ -27,6 +27,7 @@ MERGED from [com.google.android.gms:play-services-location:11.0.1] /Users/mayaje
 MERGED from [com.google.android.gms:play-services-base:11.0.1] /Users/mayajey/.android/build-cache/56c880516cf9e06a4ed2fefab9cf8fc626c43c8d/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /Users/mayajey/.android/build-cache/c9d857407bad92339c85df541bbdfaf0c5e93fbd/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.1] /Users/mayajey/.android/build-cache/e492c406ed896369eee50a7b4a9305550efb6d35/output/AndroidManifest.xml:17:5-43
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/mayajey/.android/build-cache/7bdc70a6ddd1562c263807431b90188eedce4f47/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] /Users/mayajey/.android/build-cache/79705c250f95dd5bd82d5bf84e64484eb3a4b95b/output/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-v13:25.3.1] /Users/mayajey/.android/build-cache/e03579618b56e4509e5a2fa7f12c9dd11fe5719d/output/AndroidManifest.xml:21:5-23:55
 MERGED from [com.android.support:support-v4:25.3.1] /Users/mayajey/.android/build-cache/f92eba2a35715e932bc831ab1eea9542138d61cb/output/AndroidManifest.xml:21:5-23:54
