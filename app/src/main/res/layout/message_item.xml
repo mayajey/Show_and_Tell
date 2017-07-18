@@ -10,13 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/etSnippet"
-        android:paddingTop="20dp"
-        android:hint="Title"></EditText>
+        android:background="@android:color/transparent"
+        android:hint="Where are you?"
+        android:paddingTop="20dp"></EditText>
 
     <EditText
         android:id="@+id/etSnippet"
-        android:layout_below="@id/etTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Snippet"></EditText>
+        android:background="@android:color/transparent"
+        android:layout_below="@id/etTitle"
+        android:hint="Describe where you are!"></EditText>
 </RelativeLayout>

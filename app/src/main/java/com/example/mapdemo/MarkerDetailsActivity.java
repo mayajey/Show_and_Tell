@@ -75,7 +75,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         photoFileName = photoFileName + ID;
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
-        tvLocation = (TextView) findViewById(R.id.tvLocation);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
 
         // loading photo file based on LOCATION from Parse
@@ -98,11 +97,10 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                         Glide.with(getApplicationContext())
                                 .load(imgFileUrl)
                                 .into(ivMarkerPhoto);
-
                         // load it into the image view
                         String firstItemId = parseObjects.get(0).getObjectId();
                         parseFlag = true;
-                        Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_LONG).show();
+                        Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_SHORT).show();
                     }
                     // else don't load any image & wait for the user to upload one
                 } else {
@@ -112,13 +110,12 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         });
 
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
-        if (!parseFlag) {
+        if (!parseFlag) { // TODO figure out how to fix double loading -- local & parse loading happen asynchronously
             File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
             if(imgFile.exists()){
                 Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
-                // ImageView myImage = (ImageView) findViewById(R.id.ivMarkerPhoto);
                 ivMarkerPhoto.setImageBitmap(myBitmap);
-                Toast.makeText(MarkerDetailsActivity.this, "Loading from LOCAL STORAGE", Toast.LENGTH_LONG).show();
+                // Toast.makeText(MarkerDetailsActivity.this, "Loading from LOCAL STORAGE", Toast.LENGTH_LONG).show();
             }
         }
         ibUploadPic = (ImageButton) findViewById(R.id.ibUploadPic);
@@ -131,7 +128,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         // set information
         tvTitle.setText(ID);
         tvSnippet.setText(snippet);
-        tvLocation.setText(location);
     }
 
 
@@ -164,7 +160,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 // Configure byte output stream
                 stream = new ByteArrayOutputStream();
                 // Compress the image further
-                resizedImage.compress(Bitmap.CompressFormat.JPEG, 40, stream);
+                resizedImage.compress(Bitmap.CompressFormat.JPEG, 90, stream);
 
                 // Save image to Parse
                 byte[] image = stream.toByteArray();
@@ -174,10 +170,12 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
+
+
                 ParseObject testObject = new ParseObject("ParseImageArrays");
-                // Put the image file into parse
+                // Put the image file into parse DB under ParseImageArrays class
                 testObject.put("MarkerImage", parseImage);
-                // For retrieval of images; check if the Parse location matches the current marker's location to load the right image from Parse
+                // For retrieval of images; check if the Parse location matches the current marker's location for loading
                 testObject.put("Snippet", snip);
                 testObject.put("Location", location);
                 testObject.saveInBackground();
@@ -207,8 +205,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         // Only continue if the SD Card is mounted
         if (isExternalStorageAvailable()) {
             // Get safe storage directory for photos
-            // Use `getExternalFilesDir` on Context to access package-specific directories.
-            // This way, we don't need to request external read/write runtime permissions.
             File mediaStorageDir = new File(
                     getExternalFilesDir(Environment.DIRECTORY_PICTURES), APP_TAG);
             // Create the storage directory if it does not exist
@@ -218,8 +214,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             // Return the file target for the photo based on filename
             File file = new File(mediaStorageDir.getPath() + File.separator + fileName);
             // wrap File object into a content provider
-            // required for API >= 24
-            // See https://guides.codepath.com/Sharing-Content-with-Intents#sharing-files-with-api-24-or-higher
             return FileProvider.getUriForFile(MarkerDetailsActivity.this, "com.example.mapdemo.fileprovider", file);
         }
         return null;
