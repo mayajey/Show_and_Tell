@@ -11,69 +11,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ca8730-8349-4fc8-9b86-1d59ebe46318" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/ShakeDetector$OnShakeListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/ShakeDetector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mukesh/image_processing/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mukesh/image_processing/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_be9c0df66606f4e38f04bac272be68284e00e361.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-07-33-121.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-09-56-201.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-09-58-300.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-10-06-639.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-10-10-548.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-11-07-146.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-12-34-965.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-13-26-261.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-14-11-113.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-16-08-205.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-07-18-14-31-39-875.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/photofilter_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/mukesh/image_processing/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/ShakeDetector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$ErrorDialogFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$ErrorDialogFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/LmI5Xy5xSFPAP2SbGnUIx_BP734=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/LmI5Xy5xSFPAP2SbGnUIx_BP734=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_f04a1d93b0db77031bcc290a367998595e58e351.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_f04a1d93b0db77031bcc290a367998595e58e351.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/message_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/message_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="SeenAds.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,15 +81,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapDemoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapDemoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
+            <state relative-caret-position="187">
+              <caret line="426" column="42" selection-start-line="426" selection-start-column="37" selection-end-line="426" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4179#4522#0" expanded="true" />
                 <element signature="e#4521#4522#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarkerDetailsActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="194" column="21" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2055,10 +2030,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/ShakeDetector.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" />
       </list>
     </option>
   </component>
@@ -2929,18 +2904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="85" column="160" selection-start-line="85" selection-start-column="160" selection-end-line="85" selection-end-column="160" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2662#4219#0" expanded="true" />
-            <element signature="e#4218#4219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2985,12 +2948,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
+        <state relative-caret-position="187">
+          <caret line="426" column="42" selection-start-line="426" selection-start-column="37" selection-end-line="426" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4179#4522#0" expanded="true" />
             <element signature="e#4521#4522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="194" column="21" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -108,11 +108,11 @@ public class MarkerDetailsActivity extends AppCompatActivity {
 
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
         if (!parseFlag) { // TODO figure out how to fix double loading -- local & parse loading happen asynchronously so flag isn't useful
+            // possible solution ^: a time delay?
             File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
             if(imgFile.exists()){
                 Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
                 ivMarkerPhoto.setImageBitmap(myBitmap);
-                // Toast.makeText(MarkerDetailsActivity.this, "Loading from LOCAL STORAGE", Toast.LENGTH_LONG).show();
             }
         }
         ibUploadPic = (ImageButton) findViewById(R.id.ibUploadPic);

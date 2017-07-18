@@ -124,6 +124,7 @@ public class MapDemoActivity extends AppCompatActivity implements
         } else {
             Toast.makeText(this, "Error - Map Fragment was null!!", Toast.LENGTH_SHORT).show();
         }
+        Toast.makeText(this, "Shake your phone to change the type of map you see!", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -177,7 +178,7 @@ public class MapDemoActivity extends AppCompatActivity implements
                                         .title(title)
                                         .snippet(snippet));
                                 String itemId = parseObjects.get(i).getObjectId();
-                                Toast.makeText(MapDemoActivity.this, "Loaded from PARSE: object " + itemId, Toast.LENGTH_SHORT).show();
+                                // Toast.makeText(MapDemoActivity.this, "Loaded from PARSE: object " + itemId, Toast.LENGTH_SHORT).show();
                             }
                         }
                         // else don't load any image & wait for the user to upload one
@@ -372,7 +373,7 @@ public class MapDemoActivity extends AppCompatActivity implements
         // Display the connection status
 
         if (mCurrentLocation != null) {
-            Toast.makeText(this, "GPS location was found!", Toast.LENGTH_SHORT).show();
+            // Toast.makeText(this, "GPS location was found!", Toast.LENGTH_SHORT).show();
             LatLng latLng = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
             // these two lines cause a LOT of problems with cameraUpdate being null. Removed b/c zoom is annoying and unnecessary.
             // CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, 17);
