@@ -55,9 +55,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
 
     TextView tvTitle;
     TextView tvSnippet;
-
-    // location TextView for testing ONLY
-    TextView tvLocation;
     ImageButton ibUploadPic;
     ImageView ivMarkerPhoto;
 
@@ -110,7 +107,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         });
 
         // if there's already a path to the corresponding picture for this marker, load it instead of the placeholder image
-        if (!parseFlag) { // TODO figure out how to fix double loading -- local & parse loading happen asynchronously
+        if (!parseFlag) { // TODO figure out how to fix double loading -- local & parse loading happen asynchronously so flag isn't useful
             File imgFile = new  File(ABSOLUTE_FILE_PATH + photoFileName);
             if(imgFile.exists()){
                 Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());

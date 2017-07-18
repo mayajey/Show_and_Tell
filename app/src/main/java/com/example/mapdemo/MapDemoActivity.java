@@ -173,6 +173,8 @@ public class MapDemoActivity extends AppCompatActivity implements
             });
            MapDemoActivityPermissionsDispatcher.getMyLocationWithCheck(this);
            MapDemoActivityPermissionsDispatcher.startLocationUpdatesWithCheck(this);
+            showMapTypeSelectorDialog();
+
         } else {
             Toast.makeText(this, "Error - Map was null!!", Toast.LENGTH_SHORT).show();
         }
@@ -357,7 +359,7 @@ public class MapDemoActivity extends AppCompatActivity implements
         if (mCurrentLocation != null) {
             Toast.makeText(this, "GPS location was found!", Toast.LENGTH_SHORT).show();
             LatLng latLng = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude());
-            // these two lines cause a LOT of problems with cameraUpdate being null. Removed b/c zoom is annoying.
+            // these two lines cause a LOT of problems with cameraUpdate being null. Removed b/c zoom is annoying and unnecessary.
             // CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, 17);
             // map.animateCamera(cameraUpdate);
         } else {
@@ -429,6 +431,52 @@ public class MapDemoActivity extends AppCompatActivity implements
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             return mDialog;
         }
+    }
+
+    private static final CharSequence[] MAP_TYPE_ITEMS =
+            {"Road Map", "Hybrid", "Satellite", "Terrain"};
+
+    private void showMapTypeSelectorDialog() {
+        // Prepare the dialog by setting up a Builder.
+        final String fDialogTitle = "Select Map Type";
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(fDialogTitle);
+
+        // Find the current map type to pre-check the item representing the current state.
+        int checkItem = map.getMapType() - 1;
+
+        // Add an OnClickListener to the dialog, so that the selection will be handled.
+        builder.setSingleChoiceItems(
+                MAP_TYPE_ITEMS,
+                checkItem,
+                new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int item) {
+                        // Locally create a finalised object.
+
+                        // Perform an action depending on which item was selected.
+                        switch (item) {
+                            case 1:
+                                map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+                                break;
+                            case 2:
+                                map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+                                break;
+                            case 3:
+                                map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+                                break;
+                            default:
+                                map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+                        }
+                        dialog.dismiss();
+                    }
+                }
+        );
+
+        // Build the dialog and show it.
+        AlertDialog fMapTypeDialog = builder.create();
+        fMapTypeDialog.setCanceledOnTouchOutside(true);
+        fMapTypeDialog.show();
     }
 
 }
