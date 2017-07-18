@@ -11,32 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ca8730-8349-4fc8-9b86-1d59ebe46318" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$ErrorDialogFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity$ErrorDialogFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MapDemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mapdemo/MarkerDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_f04a1d93b0db77031bcc290a367998595e58e351.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_f04a1d93b0db77031bcc290a367998595e58e351.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml" />
     </list>
     <ignored path="SeenAds.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,10 +76,12 @@
       <file leaf-file-name="MarkerDetailsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="194" column="21" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="21" />
+            <state relative-caret-position="26">
+              <caret line="100" column="79" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5035#5266#0" expanded="true" />
+                <element signature="e#5265#5266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2024,15 +2004,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fileprovider.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/fileprovider.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/Photo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/SeenAdsApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/ShakeDetector.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MapDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java" />
       </list>
     </option>
@@ -2815,14 +2795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/map_demo_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2904,17 +2876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/message_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2931,9 +2892,9 @@
         <state relative-caret-position="198">
           <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2958,12 +2919,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/markerdetails_activity.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/BitmapScaler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mapdemo/MarkerDetailsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="194" column="21" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="21" />
+        <state relative-caret-position="26">
+          <caret line="100" column="79" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5035#5266#0" expanded="true" />
+            <element signature="e#5265#5266#0" expanded="true" />
           </folding>
         </state>
       </provider>

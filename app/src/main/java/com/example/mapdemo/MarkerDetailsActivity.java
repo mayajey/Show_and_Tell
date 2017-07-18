@@ -9,6 +9,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -47,8 +48,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     public String photoFileName = "photo.jpg";
     // private String finalFileName = "";
 
-    // For parse
-    // private ParseFile photoFile;
+    // For parse & compression
     private ByteArrayOutputStream stream;
     private String snip;
     private String location;
@@ -57,6 +57,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     TextView tvSnippet;
     ImageButton ibUploadPic;
     ImageView ivMarkerPhoto;
+    RecyclerView rvComments;
 
     // TODO make this prettier
 
@@ -73,6 +74,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvSnippet = (TextView) findViewById(R.id.tvSnippet);
         ivMarkerPhoto = (ImageView) findViewById(R.id.ivMarkerPhoto);
+        rvComments = (RecyclerView) findViewById(R.id.rvComments);
 
         // loading photo file based on LOCATION from Parse
         ParseQuery<ParseObject> query  = ParseQuery.getQuery("ParseImageArrays");
@@ -82,6 +84,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
             public void done(List<ParseObject> parseObjects, com.parse.ParseException e) {
                 if (e==null){
                     int size = parseObjects.size();
+                    parseFlag = true;
                     // TODO figure out a way to handle duplicate images LATER
                     // if there's something at this location already, load the most recent image (assuming size of list is one, but handling other possibilities)
                     if (size > 0) {
@@ -96,7 +99,6 @@ public class MarkerDetailsActivity extends AppCompatActivity {
                                 .into(ivMarkerPhoto);
                         // load it into the image view
                         String firstItemId = parseObjects.get(0).getObjectId();
-                        parseFlag = true;
                         Toast.makeText(MarkerDetailsActivity.this, "Loading from PARSE: object " + firstItemId, Toast.LENGTH_SHORT).show();
                     }
                     // else don't load any image & wait for the user to upload one
