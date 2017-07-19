@@ -495,11 +495,9 @@ public class MapDemoActivity extends AppCompatActivity implements
                     }
                 }
         );
-
         // Build the dialog and show it.
         AlertDialog fMapTypeDialog = builder.create();
         fMapTypeDialog.setCanceledOnTouchOutside(true);
         fMapTypeDialog.show();
     }
-
 }

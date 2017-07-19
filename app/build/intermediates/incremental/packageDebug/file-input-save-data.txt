@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jul 18 14:35:40 PDT 2017
+#Tue Jul 18 15:56:25 PDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/mayajey/AndroidStudioProjects/SeenAds/app/build/intermediates/res/resources-debug.ap_/res/layout/map_demo_activity.xml

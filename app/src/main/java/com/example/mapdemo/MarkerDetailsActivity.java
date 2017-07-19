@@ -40,7 +40,7 @@ public class MarkerDetailsActivity extends AppCompatActivity {
 
     public final String APP_TAG = "SeenAds";
     public final static int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 1034;
-
+    
     public boolean parseFlag = false;
 
     // For local storage
@@ -57,6 +57,8 @@ public class MarkerDetailsActivity extends AppCompatActivity {
     TextView tvSnippet;
     ImageButton ibUploadPic;
     ImageView ivMarkerPhoto;
+
+    // Later if we get to it
     RecyclerView rvComments;
 
     // TODO make this prettier
